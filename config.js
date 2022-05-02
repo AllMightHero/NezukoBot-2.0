@@ -3,10 +3,7 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['17722386341', '👑 Shadow - King 👑', true],
-  ['5219996125657'],
-  ['5219991402134'],
-  ['5219992095479']
+  ['5215518064309', '👑 Shadow - King 👑', true],
 ] // Cambia los numero que quieras
 global.mods = [] 
 global.prems = [] 
@@ -53,10 +50,10 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = '(☞ﾟ∀ﾟ)☞'
-global.author = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
+global.packname = '𝕆𝕣𝕦𝕞𝕒𝕚𝕥𝕠'
+global.author = '★𝓝𝓮𝔃𝓾𝓴𝓸𝓑𝓸𝓽★'
 
-global.wm = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
+global.wm = '★𝓝𝓮𝔃𝓾𝓴𝓸𝓑𝓸𝓽★'
 
 global.multiplier = 9999 // The higher, The harder levelup
 
