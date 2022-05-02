@@ -1,10 +1,10 @@
 let handler = async (m, { conn, text }) => {
-    if (!text) throw 'No Text'
+    if (!text) throw 'Ingrese texto'
     conn.sendFile(m.chat, global.API('https://some-random-api.ml', '/canvas/youtube-comment', {
       avatar: await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png'),
       comment: text,
       username: conn.getName(m.sender)
-    }), 'yt-comment.png', 'Here is your comment', m)
+    }), 'yt-comment.png', 'Aqui esta tu comentario', m)
   }
   
   handler.help = ['ytcomment <comment>']

@@ -3,7 +3,7 @@ let _uptime = process.uptime() * 1000
 let uptime = clockString(_uptime)
 let media = './Menu2.jpg'
 let runnya = `
-*───「 RUNTIME BOT 」───*
+*───「 TIEMPO ACTIVO 」───*
 
 Runtime : ${uptime}
 `

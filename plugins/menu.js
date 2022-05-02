@@ -27,7 +27,7 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-╭═┅〘 𝐓𝐡𝐞 𝐌𝐲𝐬𝐭𝐢𝐜 - 𝐁𝐨𝐭 〙═╮
+╭═┅〘 𝓝𝓮𝔃𝓾𝓴𝓸𝓑𝓸𝓽〙═╮
 ║ 👋🏻 𝙷𝙾𝙻𝙰 %name!
 ║ 
 ║ 📅 𝙵𝙴𝙲𝙷𝙰: *%week, %date*
@@ -35,11 +35,11 @@ const defaultMenu = {
 ║
 ║ 📈 𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: *%uptime*
 ║ 📊 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂: *%rtotalreg*
-╰═┅ৡৢ͜͡✦═╡🤖╞═┅ৡৢ͜͡✦═╯
+╰═┅ৡৢ͜͡✦═╡💮╞═┅ৡৢ͜͡✦═╯
 %readmore`.trimStart(), 
   header: '╭═〘 %category 〙═╮',
   body: '╟❧ %cmd %islimit %isPremium',
-  footer: '╰════╡🔥╞════╯\n',
+  footer: '╰════╡💮╞════╯\n',
   after: `
 *%npmname* | %version
 `,
@@ -142,7 +142,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     let vn = './media/menu.mp3'
     const pp = './Menu2.jpg'
-    conn.sendHydrated(m.chat, text.trim(), '𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝', pp, 'https://github.com/BrunoSobrino/TheMystic-Bot-MD', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
+    conn.sendHydrated(m.chat, text.trim(), '𝓝𝓮𝔃𝓾𝓴𝓸𝓑𝓸𝓽', pp, 'https://github.com/AllMightHero/NezukoBot-2.0', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
       ['𝙳𝙾𝙽𝙰𝚁', '/donasi'],
       ['𝙾𝚆𝙽𝙴𝚁', '/owner']
     ], m,)

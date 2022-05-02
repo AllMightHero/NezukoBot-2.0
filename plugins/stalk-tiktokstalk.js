@@ -1,6 +1,6 @@
 import fetch from 'node-fetch'
 let handler = async(m, { conn, text }) => {
-if (!text) return conn.reply(m.chat, 'Harap Masukan Username', m)
+if (!text) return conn.reply(m.chat, 'Ingrese el nombre de usuario', m)
 let res = await fetch(`https://api.lolhuman.xyz/api/stalktiktok/${text}?apikey=9b817532fadff8fc7cb86862`)
 let res2 = `https://api.lolhuman.xyz/api/pptiktok/${text}?apikey=9b817532fadff8fc7cb86862`
 let json = await res.json()

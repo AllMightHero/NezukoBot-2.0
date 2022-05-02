@@ -5,9 +5,9 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     }[(args[0] || '')]
     if (isClose === undefined)
         throw `
-*Format salah! Contoh :*
-  *○ ${usedPrefix + command} close*
-  *○ ${usedPrefix + command} open*
+*¡Formato erróneo! Ejemplo:*
+  *○ ${usedPrefix + command} close (cerrar)*
+  *○ ${usedPrefix + command} open (abrir)*
 `.trim()
     await conn.groupSettingUpdate(m.chat, isClose)
 }

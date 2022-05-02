@@ -3,10 +3,10 @@ let handler = async(m, { isOwner, isAdmin, conn, text, participants }) => {
                 global.dfail('admin', m, conn)
                 throw false
                 }
-  let teks = `${text ? text : ''}\n┌─ 「 Tag All Member 」\n`
+  let teks = `${text ? text : ''}\n┌─ 「 Etiquetando a todos los miembros 」\n`
   for (let mem of participants) {
   teks += `│• @${mem.id.split('@')[0]}\n`}
-  teks += `└─────\n\n*TagAll by 𝚃𝚑𝚎𝙼𝚢𝚜𝚝𝚒𝚌-𝙱𝚘𝚝*`
+  teks += `└─────\n\n*NezukoBot*
   conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )
 }
 handler.help = ['tagall <message>']

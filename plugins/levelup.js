@@ -6,20 +6,20 @@ let handler = async (m, { conn }) => {
     if (!canLevelUp(user.level, user.exp, global.multiplier)) {
         let { min, xp, max } = xpRange(user.level, global.multiplier)
         throw `
-Level *${user.level} (${user.exp - min}/${xp})*
-Kurang *${max - user.exp}* lagi!
+Nivel *${user.level} (${user.exp - min}/${xp})*
+Necesitas *${max - user.exp}* mas!
 `.trim()
     }
     let before = user.level * 1
     while (canLevelUp(user.level, user.exp, global.multiplier)) user.level++
     if (before !== user.level) {
-        let teks = `Selamat ${conn.getName(m.sender)} naik 🧬level`
+        let teks = `Felicidades ${conn.getName(m.sender)} nuevo 🧬nivel`
         let str = `
 ${teks} 
-• 🧬Level Sebelumnya : ${before}
-• 🧬Level Baru : ${user.level}
-• Pada Jam : ${new Date().toLocaleString('id-ID', { timeZone: 'Asia/Jakarta' })}
-*_Semakin sering berinteraksi dengan bot Semakin Tinggi level kamu_*
+• 🧬Nivel anterior : ${before}
+• 🧬Nuevo Nivel : ${user.level}
+• Hora : ${new Date().toLocaleString('id-ID', { timeZone: 'Mexico City' })}
+*_Cuanto más interactúes con los bots, mayor será tu nivel_*
 `.trim()
         try {
             const img = await levelup(teks, user.level)

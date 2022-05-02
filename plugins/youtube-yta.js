@@ -23,10 +23,10 @@ if (source instanceof ArrayBuffer) break
 audio = link = source = null
 lastError = e
 }}
-if ((!(source instanceof ArrayBuffer) || !link || !res.ok) && !isLimit) throw 'Error: ' + (lastError || 'Can\'t download audio')
+if ((!(source instanceof ArrayBuffer) || !link || !res.ok) && !isLimit) throw 'Error: ' + (lastError || 'No pude descargarlo')
 conn.sendFile(m.chat, source, title + '.mp3', `
-*📌Title:* ${title}
-*🗎 Filesize:* ${audio.fileSizeH}
+*📌 Titulo:* ${title}
+*📋 Tamaño:* ${audio.fileSizeH}
 `.trim(), m, null, {
 asDocument: chat.useDocument
 })}

@@ -1,13 +1,13 @@
 import { youtubeSearch } from '@bochilteam/scraper'
 let handler = async (m, { text }) => {
-  if (!text) throw 'Cari apa?'
+  if (!text) throw '¿Que buscas?'
   const { video, channel } = await youtubeSearch(text)
   let teks = [...video, ...channel].map(v => {
     switch (v.type) {
       case 'video': return `
 📌 *${v.title}* (${v.url})
-⌚ Duration: ${v.durationH}
-⏲️ Uploaded ${v.publishedTime}
+⌚ Duracion: ${v.durationH}
+⏲️ Subido: ${v.publishedTime}
 👁️ ${v.view} views
       `.trim()
       case 'channel': return `
