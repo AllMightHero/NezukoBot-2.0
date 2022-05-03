@@ -1,6 +1,6 @@
 # BOT NO TERMINADO, AUN SE TRABAJA EN EL 
 
-# `💮 ℕ𝕖𝕫𝕦𝕜𝕠𝔹𝕠𝕥 💮`
+# `💮ℕ𝕖𝕫𝕦𝕜𝕠𝔹𝕠𝕥💮`
 
 ### `—◉ Dudas, bugs, sugerencias, contactame:`
 <a href="http://wa.me/525518064309" target="blank"><img src="https://img.shields.io/badge/ORUMAITO-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
