@@ -1,9 +1,9 @@
 # BOT NO TERMINADO, AUN SE TRABAJA EN EL 
 
-# `💮 ɴᴇᴢᴜᴋᴏʙᴏᴛ 💮`
+# `💮 ℕ𝕖𝕫𝕦𝕜𝕠𝔹𝕠𝕥 💮`
 
 ### `—◉ Dudas, bugs, sugerencias, contactame:`
-<a href="http://wa.me/5219992095479" target="blank"><img src="https://img.shields.io/badge/ORUMAITO-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+<a href="http://wa.me/525518064309" target="blank"><img src="https://img.shields.io/badge/ORUMAITO-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 > NO BOT
 
 ### `—◉ ACTIVAR EN HEROKU`
